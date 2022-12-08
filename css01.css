@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 6px;
+}
+h1:first-letter{
+    font-size: 5rem;
+}
+h1, h2{
+    color: red;
+}
+p:nth-of-type(odd) {
+    Color: white;
+    background-color: black;
+}    
+
+a:link, a:visited {
+    text-decoration: none; 
+    padding: 0 4px;
+}
+a:hover, a:active {
+    background-color: hotpink;
+    text-decoration: dashed underline;
+} 
+           
+ul {
+    list-style-type: none;
+  }
+
+  li { 
+    background-color: deepskyblue;
+    margin-right: 20px;
+    border: white 5px solid;
+  }  
+  
+  .li2 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  } 
+  .li4 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li6 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li8 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }    
+  
+  li:hover, li:active {
+    background-color: hotpink;
+    text-decoration: dashed underline;
+  } 
+
+  a {
+    color: black;
+    padding: 0 4px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: white;
+    color: #D7C8B6;
+  }
+
+ .li07 { 
+    background-color: orange;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li09 { 
+    background-color: orange;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li02 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  } 
+  .li04 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li06 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
+  .li08 { 
+    background-color: white;
+    margin-right: 20px;
+    border: white 5px solid;
+  }
